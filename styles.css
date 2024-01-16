@@ -1,0 +1,74 @@
+body{
+    background: green;
+   width: 500px;
+   margin: auto;
+}
+
+.wrapper {
+   background: white;
+    display: flex;
+  
+}
+
+#user {
+    width: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+    border: 3px;
+    border-color: black;
+}
+#icon {
+    width: 20%;
+
+}
+
+#description {
+    width: 70%;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#date {
+    color: grey;
+    width: 20%;
+    font-size: 15px;
+    text-align: right;
+    margin: 10px;
+}
+#image {
+    height: 400px;
+    overflow: hidden;
+    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/blog_header/an/AN0JOJ14NMNS1580153151885.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#iconos {
+    background-color: white;
+    padding-top: 10px;
+ 
+   font-size: 25px;
+   color: red;
+  
+}
+
+#texto {
+    padding: 8px 10px 0% 10px;
+    height: 60px;
+    background-color: white;
+}
+
+.fa-comment {
+    margin-left: 10px;
+    color: grey;
+}
+
+.fa-heart {
+    margin-left: 10px;
+}
+
+.fa-share {
+    color: grey;
+    margin-left: 10px;
+}
